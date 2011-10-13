@@ -1,4 +1,13 @@
-### HAPROXY & KeepAlived
+---
+layout: post
+title: HAPROXY & KeepAlived
+
+---
+
+{{ page.title }}
+================
+
+<p class="meta">13 oct 2011 - Los Angeles</p>
 
 HAProxy is load balancer software that allows you to proxy HTTP and TCP connections to a pool of back-end servers; Keepalived – among other uses – allows you to create a redundant pair of HAProxy servers by moving an IP address between HAProxy hosts in an active-passive configuration.
 
