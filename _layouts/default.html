@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
    <meta name="author" content="Brian Scott" />
@@ -36,7 +37,7 @@ var WRInitTime=(new Date()).getTime();
     <div class="contact">
       <p>
         Brian Scott<br />
-        Ops Badass<br />
+        DevOps Badass<br />
         B@Bscott.me
       </p>
     </div>
@@ -45,6 +46,7 @@ var WRInitTime=(new Date()).getTime();
         <a href="http://github.com/bscott/">github.com/bscott</a><br />
         <a href="http://twitter.com/brainscott/">twitter.com/brainscott</a><br />
         <a href="http://flickr.com/photos/mrnovell/">flickr.com/photos/mrnovell</a>
+        <a href="http://www.linkedin.com/brianlscott">LinkedIn Profile</a>
       </p>
     </div>
     <div class="rss">
@@ -69,15 +71,35 @@ if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
 <!-- ClickTale end of Bottom part -->
 
 <!-- Google Analytics -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-6016902-1");
-pageTracker._trackPageview();
-</script>
+// <script type="text/javascript">
+// var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+// document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+// </script>
+// <script type="text/javascript">
+// var pageTracker = _gat._getTracker("UA-6016902-1");
+// pageTracker._trackPageview();
+// </script>
 <!-- Google Analytics end -->
 
+<!-- ChartBeat -->
+<script type="text/javascript">
+var _sf_async_config={uid:4254,domain:"blog.bscott.me"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+</script>
 </body>
 </html>
