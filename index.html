@@ -4,18 +4,18 @@ title: Brian Scott
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Articles on ruby programming & internet system engineering from Brian Scott</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-  <h1>Open Source Projects that built</h1>
+  <h1>Open Source Projects that I built</h1>
   <ul class="posts">
     <li><a href="http://github.com/bscott/gtalk-bot/">GTalk-Bot:</a> A simple, GTalk-Bot Framework. Launch a bot in 5 Minutes or less</li>
     <li><a href="http://github.com/bscott/lazyGem/">LazyGem:</a> Install your subscribed gems from RubyGems.org.</li>
     <li><a href="https://rubygems.org/gems/campfire_handler">Chef Handler:</a> Send Chef Exceptions to Campfire.</li>
-    <li><a href="https://rubygems.org/gems/chef-handler-librato">Chef-Handler-Librato:</a>Send chef metrics to Librato metrics.</li>
+    <li><a href="https://rubygems.org/gems/chef-handler-librato">Chef-Handler-Librato:</a> Send chef metrics to Librato metrics.</li>
   </ul>
 </div>
