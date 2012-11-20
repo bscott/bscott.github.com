@@ -8,7 +8,6 @@ title: Chef 11 - Encrypted Databags Announcement
 
 <p class="meta">20 Nov 2012 - Los Angeles</p>
 
-## TLDR
 * The format of encrypted data bag items is changing in a breaking way
 * The next 10.x release of Chef will include backwards compatibility with Chef 11 encrypted data bag items.
 * Chef 10.16.2 and lower will not be able to read encrypted data bag items created with Chef 11.
@@ -16,6 +15,7 @@ title: Chef 11 - Encrypted Databags Announcement
 * http://tickets.opscode.com/browse/CHEF-3393
 * http://tickets.opscode.com/browse/CHEF-3392
 * http://tickets.opscode.com/browse/CHEF-3480
+
 
 ## Background
 Encrypted data bag items support nested structures within an encrypted value, for example:
@@ -62,3 +62,5 @@ When upgrading, users of encrypted data bag items should do the following:
 2. Upgrade chef on the workstation where you create/update encrypted data bag items to 11.0
 
 If you want to take advantage of the security improvements in the new format immediately, re-upload your encrypted data bag items. Note that Chef 11 can read Chef 10.x format encrypted data bag items, so this step is optional.
+
+I'll be coming out with a knife plugin to essentially downloads/decrypts/re-encrypts/uploads each encrypted databag item in a databag for easy migration to Chef 11's new format so stay tuned!
