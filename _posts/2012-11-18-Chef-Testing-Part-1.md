@@ -27,5 +27,5 @@ This setup will consist of 3 Jobs in Jenkins configured in a multi-job configura
 <li>Jenkins (https://jenkins-ci.org/)</li>
 <li>Opscode Hosted Chef Account - Free Tier offers 5 nodes for free which is perfect for this post.</li>	
 
-At the end of Part 5, I will provide a cookbook that setups the entire testing stack for you! :) Stay Tuned!
+At the end of Part 5, I will provide a cookbook that setups the entire testing stack for you! :) Stay Tuned! - New post every week.
 
