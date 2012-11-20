@@ -63,4 +63,4 @@ When upgrading, users of encrypted data bag items should do the following:
 
 If you want to take advantage of the security improvements in the new format immediately, re-upload your encrypted data bag items. Note that Chef 11 can read Chef 10.x format encrypted data bag items, so this step is optional.
 
-I'll be coming out with a knife plugin to essentially downloads/decrypts/re-encrypts/uploads each encrypted databag item in a databag for easy migration to Chef 11's new format so stay tuned!
+I'll be coming out with a knife plugin to essentially downloads/decrypts/re-encrypts/uploads each encrypted databag item in a databag for easy migration to Chef 11's new format. Which is now here: https://github.com/leftathome/knife-databag-upgrade (Try at your own risk)
