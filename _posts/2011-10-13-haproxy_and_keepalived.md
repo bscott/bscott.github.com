@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HAPROXY & KeepAlived
+commentIssueId: 2
 ---
 
 {{ page.title }}

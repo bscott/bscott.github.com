@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Enable SSH Agent (key) forwarding on Mac OS Lion
+commentIssueId: 3
 ---
 
 {{ page.title }}
