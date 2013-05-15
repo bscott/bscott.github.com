@@ -12,13 +12,13 @@ commentIssueId: 5
 
 **In part 1 of Chef Testing, we went over the prereqs of what is needed to get basic testing inplace. In this post we'll setup Our first jenkins job and setup food critic. **
 
-** Your Jenkins Instance will need Ruby or RVM(Recommended) (http://rvm.io) installed and Don't forget to configure the following git options as the Jenkins user **
+Your Jenkins Instance will need Ruby or RVM(Recommended) (http://rvm.io) installed and Don't forget to configure the following git options as the Jenkins user
 
-```
+
 git config --global user.email "you@example.com"
+
 git config --global user.name "Your Name"
 
-```
 
 ## Step 1 - Setting up the Foundation!
 
